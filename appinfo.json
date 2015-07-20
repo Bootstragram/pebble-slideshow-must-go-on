@@ -1,0 +1,64 @@
+{
+  "uuid": "f6e01b29-421b-486f-ac8e-343347e28dcd",
+  "shortName": "pebble-image-viewer",
+  "longName": "pebble-image-viewer",
+  "companyName": "Bootstragram",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ],
+  "watchapp": {
+    "watchface": false
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "file": "images/0.png",
+        "name": "IMAGE_0"
+      },
+      {
+        "type": "png",
+        "file": "images/1.png",
+        "name": "IMAGE_1"
+      },
+      {
+        "type": "png",
+        "file": "images/2.png",
+        "name": "IMAGE_2"
+      },
+      {
+        "type": "png",
+        "file": "images/3.png",
+        "name": "IMAGE_3"
+      },
+      {
+        "type": "png",
+        "file": "images/4.png",
+        "name": "IMAGE_4"
+      },
+      {
+        "type": "png",
+        "file": "images/5.png",
+        "name": "IMAGE_5"
+      },
+      {
+        "type": "png",
+        "file": "images/bad.png",
+        "name": "IMAGE_BAD"
+      },
+      {
+        "type": "png",
+        "file": "images/logo.png",
+        "name": "IMAGE_LOGO"
+      },
+      {
+        "type": "png",
+        "file": "images/menu_icon.png",
+        "name": "IMAGE_MENU_ICON"
+      }
+    ]
+  }
+}

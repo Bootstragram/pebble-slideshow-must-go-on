@@ -1,0 +1,4 @@
+.idea
+.lock-waf_darwin_build
+CMakeLists.txt
+/build/
