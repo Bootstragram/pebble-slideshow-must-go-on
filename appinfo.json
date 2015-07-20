@@ -14,21 +14,7 @@
   },
   "resources": {
     "media": [
-      {
-        "type": "png",
-        "file": "images/bad-1234toto.png",
-        "name": "IMAGE_BAD_1234TOTO"
-      },
-      {
-        "type": "png",
-        "file": "images/logo test.png",
-        "name": "IMAGE_LOGO_TEST"
-      },
-      {
-        "type": "png",
-        "file": "images/menu&truc.min.png",
-        "name": "IMAGE_MENU_TRUC_MIN"
-      }
+
     ]
   }
 }

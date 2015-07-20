@@ -2,7 +2,7 @@
 
 require 'json'
 
-if Dir.exist? 'resources/images/'
+if Dir.exist? 'resources/images/' and File.file? 'appinfo.json'
   json = JSON.parse(File.read('appinfo.json'))
   json['resources']['media'] = []
   formats = ['.png', '.jpg', '.jpeg', 'bmp']
