@@ -23,5 +23,5 @@ sudo apt-get install ruby; gem install json
 ```
 
 ## License
-Copyright (c) 2015 Bootstragram
+Copyright (c) 2015 Bootstragram  
 Licensed under the MIT license.
