@@ -9,14 +9,14 @@ if Dir.exist? 'resources/images/' and File.file? 'appinfo.json'
   platformFiles = [];
   Dir.foreach('resources/images') do |filename|
     ext = File.extname(filename);
+    if filename.include? '~'
+      filename = filename.sub(/(\w)~.+/, '\1') + ext
+    end
+    if platformFiles.include? filename
+      next
+    end
+    platformFiles << filename
     if formats.include? ext
-      if filename.include? '~'
-        filename = filename.sub(/(\w)~.+/, '\1') + ext
-        if platformFiles.include? filename
-          next
-        end
-        platformFiles << filename
-      end
       json['resources']['media'] << {
           type: ext[1..-1],
           file: "images/#{filename}",
