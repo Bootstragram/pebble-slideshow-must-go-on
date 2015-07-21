@@ -1,4 +1,6 @@
-# Pebble Image Viewer
+# Pebble Slideshow Must Go On
+
+![Slideshow Must Go On Live At Wembley 86](https://raw.githubusercontent.com/wiki/Bootstragram/pebble-slideshow-must-go-on/assets/logo.jpg)
 
 Test your designs on the watch to have a glimpse of how they look like on your wrist.
 
