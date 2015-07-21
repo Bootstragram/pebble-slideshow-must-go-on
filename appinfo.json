@@ -13,10 +13,12 @@
     "watchface": false
   },
   "resources": {
-  },
-  "resources": {
     "media": [
-
+      {
+        "type": "png",
+        "file": "images/test.png",
+        "name": "IMAGE_TEST"
+      }
     ]
   }
 }
