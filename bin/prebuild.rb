@@ -21,7 +21,7 @@ if Dir.exist? 'resources/images/' and File.file? 'appinfo.json'
     end
     platformFiles << filename
     if formats.include? ext
-      json['resources']['media'] << {
+      json[:resources][:media] << {
           type: ext[1..-1],
           file: "images/#{filename}",
           name: "IMAGE_#{filename[0..-(ext.length + 1)].gsub(/\W/i, '_').upcase}"
