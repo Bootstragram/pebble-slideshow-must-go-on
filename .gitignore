@@ -1,4 +1,5 @@
 .idea
-.lock-waf_darwin_build
+.lock-waf*
 CMakeLists.txt
 /build/
+/resources/
